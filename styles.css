@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2 linear;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+.navbar-nav{
+    font-size: large;
+    
+}
+
+
+#search {
+    justify-content: end;
+    width: 350px;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 3rem;
+}
+.heading span{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.bi{
+    background-color:transparent;
+    margin-left: 15px;
+}
+a .bi{
+    color: #ddd;
+    
+}
+
+
+.home{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    background: url(images/C1.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    padding-left: auto;
+}
+
+
+.home .content{
+    max-width: 60rem;
+}
+.home .content h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 1rem;
+}
+.home .content p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.1;
+    padding: 1rem;
+    color: #ddd;
+}
+
+#home .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    margin-left: 1rem;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.about .row .image{
+    flex: 1 1 30rem;
+}
+
+.about .row .image img{
+    max-width: 100%;
+    height: auto ;
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.about .row .content h3{
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.about .row .content p{
+    font-size: 1rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+
+
+.reviews img{
+    max-width: 10rem;
+    max-height: 10rem;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reviews .carousel-item{
+    text-align: center;
+}
+
+
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+
+
+
